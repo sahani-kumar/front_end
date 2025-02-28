@@ -1,0 +1,28 @@
+
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .containor{
+    height: 100vh;
+
+   }
+   .cursor{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    border-radius:50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;    transition: all linear 0.5s;
+    color: white;
+   }
+   .containor  h1{
+    columns: white;
+    font-size: 100px;
+   }
